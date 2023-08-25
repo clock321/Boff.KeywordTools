@@ -1,0 +1,14 @@
+﻿<Application x:Class="Boff.KeywordTools.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Boff.KeywordTools"
+             xmlns:core="clr-namespace:Boff.KeywordTools.ViewModel"  
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <core:ViewModelLocator x:Key="ViewModelLocator" />
+        <!--<ResourceDictionary>
+            <vm:ViewModelLocator xmlns:vm="clr-namespace:Boff.KeywordTools.ViewModel" x:Key="Locator" />
+        </ResourceDictionary>-->
+    </Application.Resources>
+</Application>
